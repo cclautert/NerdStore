@@ -1,14 +1,16 @@
 ﻿using NerdStore.Core.DomainObjects;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NerdStore.Catalogo.Domain
 {
     public class Produto : Entity, IAggregateRoot
     {
+        private Guid _CategoriaId;
+        public Guid CategoriaId {
+            get { return _CategoriaId; }
+            private set { _CategoriaId = value; }
+        }
+
         private string _Nome;
         public string Nome {
             get { return _Nome; }
@@ -52,15 +54,71 @@ namespace NerdStore.Catalogo.Domain
             private set { _QuantidadeEstoque = value; }
         }
 
+        private Dimensoes _Dimensoes;
+        public Dimensoes Dimensoes {
+            get { return _Dimensoes; }
+            private set { _Dimensoes = value; }
+        }
+
         private Categoria _Categoria;
         public Categoria Categoria {
             get { return _Categoria; }
             private set { _Categoria = value; }
         }
 
-    }
+        public Produto(string Nome, string Descricao, bool Ativo, decimal Valor, Guid CategoriaId, DateTime DataCadastro, string Imagem, Dimensoes dimensoes)
+        {
+            _CategoriaId = CategoriaId;
+            _Nome = Nome;
+            _Descricao = Descricao;
+            _Ativo = Ativo;
+            _Valor = Valor;
+            _DataCadastro = DataCadastro;
+            _Imagem = Imagem;
+            _Dimensoes = dimensoes;
 
-    public class Categoria : Entity, IAggregateRoot
-    {
+            Validar();
+        }
+
+        //Ad Hoc Setter
+        public void Ativar() => _Ativo = true;
+        public void Desativar() => _Ativo = false;
+
+        public void AlterarCategoria(Categoria categoria)
+        {
+            _Categoria = categoria;
+            _CategoriaId = categoria.Id;
+        }
+
+        public void AlterarDescricao(string descricao)
+        {
+            Validacoes.ValidarSeVazio(descricao, "O campo Descricao do produto não pode estar vazio");
+            _Descricao = descricao;
+        }
+
+        public void DebitarEstoque(int quantidade)
+        {
+            if (quantidade < 0) quantidade *= -1;
+            if (!PossuiEstoque(quantidade)) throw new DomainException("Estoque insuficiente");
+            _QuantidadeEstoque -= quantidade;
+        }
+        public void ReporEstoque(int quantidade)
+        {
+            _QuantidadeEstoque += quantidade;
+        }
+
+        public bool PossuiEstoque(int quantidade)
+        {
+            return _QuantidadeEstoque >= quantidade;
+        }
+
+        public void Validar()
+        {
+            Validacoes.ValidarSeVazio(Nome, "O campo Nome do produto não pode estar vazio");
+            Validacoes.ValidarSeVazio(Descricao, "O campo Descricao do produto não pode estar vazio");
+            Validacoes.ValidarSeIgual(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode estar vazio");
+            Validacoes.ValidarSeMenorQue(Valor, 1, "O campo Valor do produto não pode se menor igual a 0");
+            Validacoes.ValidarSeVazio(Imagem, "O campo Imagem do produto não pode estar vazio");
+        }
     }
 }
