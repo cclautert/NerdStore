@@ -1,0 +1,17 @@
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.deps.json
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.runtimeconfig.json
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.runtimeconfig.dev.json
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.dll
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Domain.dll
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Core.dll
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Catalogo.Domain.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\bin\Debug\netcoreapp2.2\NerdStore.Core.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.csproj.AssemblyReference.cache
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.AssemblyInfoInputs.cache
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.AssemblyInfo.cs
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.csproj.CoreCompileInputs.cache
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.csproj.CopyComplete
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.dll
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.genruntimeconfig.cache
