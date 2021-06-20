@@ -66,6 +66,11 @@ namespace NerdStore.Catalogo.Domain
             private set { _Categoria = value; }
         }
 
+        protected Produto()
+        {
+
+        }
+
         public Produto(string Nome, string Descricao, bool Ativo, decimal Valor, Guid CategoriaId, DateTime DataCadastro, string Imagem, Dimensoes dimensoes)
         {
             _CategoriaId = CategoriaId;

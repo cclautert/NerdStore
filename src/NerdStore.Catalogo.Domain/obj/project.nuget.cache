@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8KXq52X1uwKCEcMWUa4H7Dw5jpnYWdfSOYCKhpgM5LgYKkRtSjYxbBvNyVUkzp2cUHtBn8dG3lszzbRTkQsbrA==",
+  "dgSpecHash": "IxXcO4zuxFLwdExojsSTg08V5tMzl4IISaW1/q+hw1kPpJdlA5QlkAIi11KZ9LfCjWvK7QApjlRcUHIWrw0LUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Cristiano\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",

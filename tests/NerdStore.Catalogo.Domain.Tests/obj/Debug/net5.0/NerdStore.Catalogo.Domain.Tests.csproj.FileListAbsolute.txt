@@ -102,3 +102,4 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\tests\NerdStore.Catalogo.Dom
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\net5.0\ref\NerdStore.Catalogo.Domain.Tests.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\net5.0\NerdStore.Catalogo.Domain.Tests.pdb
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\obj\Debug\net5.0\NerdStore.Catalogo.Domain.Tests.genruntimeconfig.cache
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\tests\NerdStore.Catalogo.Domain.Tests\bin\Debug\net5.0\MediatR.dll
