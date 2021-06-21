@@ -49,5 +49,10 @@ namespace NerdStore.Core.DomainObjects
         {
             return GetType().Name + " [Id=" + _Id + "]";
         }
+
+        public virtual bool EhValido()
+        {
+            throw new NotImplementedException(); 
+        }
     }
 }
