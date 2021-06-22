@@ -274,6 +274,10 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[9.0.0, )"
