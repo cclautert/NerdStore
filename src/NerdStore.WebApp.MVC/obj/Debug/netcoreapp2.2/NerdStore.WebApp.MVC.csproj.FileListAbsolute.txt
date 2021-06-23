@@ -96,3 +96,9 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.pdb
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\NerdStore.WebApp.MVC.genruntimeconfig.cache
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Application.dll
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.dll
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Application.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Data.dll
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Data.pdb
