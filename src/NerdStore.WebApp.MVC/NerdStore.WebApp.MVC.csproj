@@ -27,6 +27,7 @@
 
 
   <ItemGroup>
+    <Folder Include="Views\Carrinho\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 

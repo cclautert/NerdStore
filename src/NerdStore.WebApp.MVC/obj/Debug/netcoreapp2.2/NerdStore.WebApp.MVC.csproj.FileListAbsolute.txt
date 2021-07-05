@@ -102,3 +102,4 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Data.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Data.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
