@@ -6,3 +6,4 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Core\obj\Debug
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.csproj.CoreCompileInputs.cache
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Core\obj\Debug\netcoreapp2.2\NerdStore.Core.csproj.AssemblyReference.cache
