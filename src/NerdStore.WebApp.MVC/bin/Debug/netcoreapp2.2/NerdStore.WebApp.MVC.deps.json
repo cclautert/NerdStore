@@ -39,6 +39,9 @@
           "NerdStore.Catalogo.Data": "1.0.0",
           "NerdStore.Catalogo.Domain": "1.0.0",
           "NerdStore.Core": "1.0.0",
+          "NerdStore.Pagamentos.AntiCorruption": "1.0.0",
+          "NerdStore.Pagamentos.Business": "1.0.0",
+          "NerdStore.Pagamentos.Data": "1.0.0",
           "NerdStore.Vendas.Application": "1.0.0",
           "NerdStore.Vendas.Data": "1.0.0"
         },
@@ -684,6 +687,44 @@
         },
         "compile": {
           "NerdStore.Core.dll": {}
+        }
+      },
+      "NerdStore.Pagamentos.AntiCorruption/1.0.0": {
+        "dependencies": {
+          "NerdStore.Pagamentos.Business": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Pagamentos.AntiCorruption.dll": {}
+        },
+        "compile": {
+          "NerdStore.Pagamentos.AntiCorruption.dll": {}
+        }
+      },
+      "NerdStore.Pagamentos.Business/1.0.0": {
+        "dependencies": {
+          "NerdStore.Core": "1.0.0",
+          "NerdStore.Vendas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Pagamentos.Business.dll": {}
+        },
+        "compile": {
+          "NerdStore.Pagamentos.Business.dll": {}
+        }
+      },
+      "NerdStore.Pagamentos.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
+          "NerdStore.Core": "1.0.0",
+          "NerdStore.Pagamentos.Business": "1.0.0"
+        },
+        "runtime": {
+          "NerdStore.Pagamentos.Data.dll": {}
+        },
+        "compile": {
+          "NerdStore.Pagamentos.Data.dll": {}
         }
       },
       "NerdStore.Vendas.Application/1.0.0": {
@@ -4083,6 +4124,21 @@
       "sha512": ""
     },
     "NerdStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Pagamentos.AntiCorruption/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Pagamentos.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NerdStore.Pagamentos.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

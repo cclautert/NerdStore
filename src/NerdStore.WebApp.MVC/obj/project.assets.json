@@ -4829,6 +4829,50 @@
           "bin/placeholder/NerdStore.Core.dll": {}
         }
       },
+      "NerdStore.Pagamentos.AntiCorruption/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "NerdStore.Pagamentos.Business": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Pagamentos.AntiCorruption.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Pagamentos.AntiCorruption.dll": {}
+        }
+      },
+      "NerdStore.Pagamentos.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "NerdStore.Core": "1.0.0",
+          "NerdStore.Vendas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Pagamentos.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Pagamentos.Business.dll": {}
+        }
+      },
+      "NerdStore.Pagamentos.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6",
+          "NerdStore.Core": "1.0.0",
+          "NerdStore.Pagamentos.Business": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NerdStore.Pagamentos.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NerdStore.Pagamentos.Data.dll": {}
+        }
+      },
       "NerdStore.Vendas.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -13227,6 +13271,21 @@
       "path": "../NerdStore.Core/NerdStore.Core.csproj",
       "msbuildProject": "../NerdStore.Core/NerdStore.Core.csproj"
     },
+    "NerdStore.Pagamentos.AntiCorruption/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Pagamentos.AntiCorruption/NerdStore.Pagamentos.AntiCorruption.csproj",
+      "msbuildProject": "../NerdStore.Pagamentos.AntiCorruption/NerdStore.Pagamentos.AntiCorruption.csproj"
+    },
+    "NerdStore.Pagamentos.Business/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj",
+      "msbuildProject": "../NerdStore.Pagamentos.Business/NerdStore.Pagamentos.Business.csproj"
+    },
+    "NerdStore.Pagamentos.Data/1.0.0": {
+      "type": "project",
+      "path": "../NerdStore.Pagamentos.Data/NerdStore.Pagamentos.Data.csproj",
+      "msbuildProject": "../NerdStore.Pagamentos.Data/NerdStore.Pagamentos.Data.csproj"
+    },
     "NerdStore.Vendas.Application/1.0.0": {
       "type": "project",
       "path": "../NerdStore.Vendas.Application/NerdStore.Vendas.Application.csproj",
@@ -13255,32 +13314,35 @@
       "NerdStore.Catalogo.Data >= 1.0.0",
       "NerdStore.Catalogo.Domain >= 1.0.0",
       "NerdStore.Core >= 1.0.0",
+      "NerdStore.Pagamentos.AntiCorruption >= 1.0.0",
+      "NerdStore.Pagamentos.Business >= 1.0.0",
+      "NerdStore.Pagamentos.Data >= 1.0.0",
       "NerdStore.Vendas.Application >= 1.0.0",
       "NerdStore.Vendas.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Cristiano\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
       "projectName": "NerdStore.WebApp.MVC",
-      "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+      "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
       "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\obj\\",
+      "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -13293,23 +13355,32 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
-              "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj"
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj"
             },
-            "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
-              "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
             },
-            "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
-              "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
             },
-            "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-              "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
             },
-            "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
-              "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj"
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj"
             },
-            "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
-              "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj"
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
+            },
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj"
+            },
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj"
+            },
+            "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
+              "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj"
             }
           }
         }
@@ -13364,7 +13435,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

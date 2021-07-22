@@ -103,3 +103,12 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Data.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Vendas.Data.pdb
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Carrinho\Index.cshtml.g.cs
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Carrinho\ResumoDaCompra.cshtml.g.cs
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Pagamentos.AntiCorruption.dll
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Pagamentos.Business.dll
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Pagamentos.Data.dll
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Pagamentos.AntiCorruption.pdb
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Pagamentos.Business.pdb
+C:\Users\Cristiano\Source\Repos\cclautert\NerdStore\src\NerdStore.WebApp.MVC\bin\Debug\netcoreapp2.2\NerdStore.Pagamentos.Data.pdb

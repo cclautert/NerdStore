@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using NerdStore.Core.Bus;
+using NerdStore.Core.Messages.CommonMessages.IntegrationEvents;
+using NerdStore.Vendas.Application.Commands;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,10 +12,10 @@ namespace NerdStore.Vendas.Application.Events
 {
     public class PedidoEventHandler :
         INotificationHandler<PedidoRascunhoIniciadoEvent>,
-        INotificationHandler<PedidoItemAdicionadoEvent>
-        //INotificationHandler<PedidoEstoqueRejeitadoEvent>,
-        //INotificationHandler<PedidoPagamentoRealizadoEvent>,
-        //INotificationHandler<PedidoPagamentoRecusadoEvent>
+        INotificationHandler<PedidoItemAdicionadoEvent>,
+        INotificationHandler<PedidoEstoqueRejeitadoEvent>,
+        INotificationHandler<PedidoPagamentoRealizadoEvent>,
+        INotificationHandler<PedidoPagamentoRecusadoEvent>
     {
 
         private readonly IMediatorHandler _mediatorHandler;
@@ -33,19 +35,19 @@ namespace NerdStore.Vendas.Application.Events
             return Task.CompletedTask;
         }
 
-        //public async Task Handle(PedidoEstoqueRejeitadoEvent message, CancellationToken cancellationToken)
-        //{
-        //    await _mediatorHandler.EnviarComando(new CancelarProcessamentoPedidoCommand(message.PedidoId, message.ClienteId));
-        //}
+        public async Task Handle(PedidoEstoqueRejeitadoEvent message, CancellationToken cancellationToken)
+        {
+            await _mediatorHandler.EnviarComando(new CancelarProcessamentoPedidoCommand(message.PedidoId, message.ClienteId));
+        }
 
-        //public async Task Handle(PedidoPagamentoRealizadoEvent message, CancellationToken cancellationToken)
-        //{
-        //    await _mediatorHandler.EnviarComando(new FinalizarPedidoCommand(message.PedidoId, message.ClienteId));
-        //}
+        public async Task Handle(PedidoPagamentoRealizadoEvent message, CancellationToken cancellationToken)
+        {
+            await _mediatorHandler.EnviarComando(new FinalizarPedidoCommand(message.PedidoId, message.ClienteId));
+        }
 
-        //public async Task Handle(PedidoPagamentoRecusadoEvent message, CancellationToken cancellationToken)
-        //{
-        //    await _mediatorHandler.EnviarComando(new CancelarProcessamentoPedidoEstornarEstoqueCommand(message.PedidoId, message.ClienteId));
-        //}
+        public async Task Handle(PedidoPagamentoRecusadoEvent message, CancellationToken cancellationToken)
+        {
+            await _mediatorHandler.EnviarComando(new CancelarProcessamentoPedidoEstornarEstoqueCommand(message.PedidoId, message.ClienteId));
+        }
     }
 }

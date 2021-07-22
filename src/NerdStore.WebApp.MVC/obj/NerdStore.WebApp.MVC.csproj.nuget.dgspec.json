@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {}
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
         "projectName": "NerdStore.Catalogo.Application",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -33,11 +32,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
               },
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
               }
             }
           }
@@ -73,27 +72,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
         "projectName": "NerdStore.Catalogo.Data",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -106,8 +104,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
               }
             }
           }
@@ -159,27 +157,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
         "projectName": "NerdStore.Catalogo.Domain",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -192,8 +189,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               }
             }
           }
@@ -229,27 +226,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
         "projectName": "NerdStore.Core",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -299,27 +296,93 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
+    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
-        "projectName": "NerdStore.Vendas.Application",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
+        "projectName": "NerdStore.Pagamentos.AntiCorruption",
+        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj",
+        "projectName": "NerdStore.Pagamentos.Business",
+        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj",
+        "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -368,27 +431,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
+    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
-        "projectName": "NerdStore.Vendas.Data",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj",
+        "projectName": "NerdStore.Pagamentos.Data",
+        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -404,8 +467,8 @@
               "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
                 "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               },
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
+              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
               }
             }
           }
@@ -449,27 +512,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
-        "projectName": "NerdStore.Vendas.Domain",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
+        "projectName": "NerdStore.Vendas.Application",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -482,8 +545,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              },
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
               }
             }
           }
@@ -515,27 +581,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
-        "projectName": "NerdStore.WebApp.MVC",
-        "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
+        "projectName": "NerdStore.Vendas.Data",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
         "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\obj\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -548,23 +613,178 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               },
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+        "projectName": "NerdStore.Vendas.Domain",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+        "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+        "projectName": "NerdStore.WebApp.MVC",
+        "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+        "packagesPath": "C:\\Users\\Cristiano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.WebApp.MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cristiano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj"
               },
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
               },
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
               },
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               },
-              "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
-                "projectPath": "C:\\Users\\Cristiano\\source\\repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj"
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj"
+              },
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
+              },
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj"
+              },
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj"
+              },
+              "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
+                "projectPath": "C:\\Users\\Cristiano\\Source\\Repos\\cclautert\\NerdStore\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj"
               }
             }
           }
@@ -619,7 +839,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
