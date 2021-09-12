@@ -10,3 +10,4 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Vendas.Domain\
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.csproj.CopyComplete
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp2.2\NerdStore.Vendas.Domain.GeneratedMSBuildEditorConfig.editorconfig

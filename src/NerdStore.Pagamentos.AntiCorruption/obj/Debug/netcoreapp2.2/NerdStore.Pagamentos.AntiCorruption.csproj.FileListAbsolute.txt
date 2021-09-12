@@ -14,3 +14,4 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Pagamentos.Ant
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp2.2\NerdStore.Pagamentos.AntiCorruption.csproj.CopyComplete
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp2.2\NerdStore.Pagamentos.AntiCorruption.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp2.2\NerdStore.Pagamentos.AntiCorruption.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Pagamentos.AntiCorruption\obj\Debug\netcoreapp2.2\NerdStore.Pagamentos.AntiCorruption.GeneratedMSBuildEditorConfig.editorconfig

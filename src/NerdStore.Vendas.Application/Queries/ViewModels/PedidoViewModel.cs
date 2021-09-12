@@ -4,6 +4,13 @@ namespace NerdStore.Vendas.Application.Queries.ViewModels
 {
     public class PedidoViewModel
     {
+        private Guid _Id;
+        public Guid Id
+        {
+            get { return _Id; }
+            set { _Id = value; }
+        }
+
         private int _Codigo;
         public int Codigo
         {

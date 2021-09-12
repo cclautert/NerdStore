@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = EventSourcing
+build_property.ProjectDir = C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\EventSourcing\

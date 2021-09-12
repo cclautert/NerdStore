@@ -15,3 +15,4 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.pdb
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.genruntimeconfig.cache
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Data\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Data.GeneratedMSBuildEditorConfig.editorconfig

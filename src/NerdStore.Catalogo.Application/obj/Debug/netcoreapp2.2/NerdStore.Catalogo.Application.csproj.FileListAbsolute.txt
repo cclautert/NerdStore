@@ -14,3 +14,4 @@ C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Appli
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Application.csproj.CopyComplete
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Application.dll
 C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Application.pdb
+C:\Users\Cristiano\source\repos\cclautert\NerdStore\src\NerdStore.Catalogo.Application\obj\Debug\netcoreapp2.2\NerdStore.Catalogo.Application.GeneratedMSBuildEditorConfig.editorconfig
